@@ -22,10 +22,16 @@ p {
   /* self-explanatory */
   text-align: center;
 
-  
+  /* remember box model: Content, Padding, Border, Margin */
   border: 2px solid rgb(0 0 200 / 0.6);
+
+  /* background of content */
   background: rgb(0 0 200 / 0.6);
+
+  /* content text color */
   color: rgb(255 255 255 / 1);
+
+  
   box-shadow: 1px 1px 2px rgb(0 0 200 / 0.4);
   border-radius: 10px;
   padding: 3px 10px;
