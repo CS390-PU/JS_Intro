@@ -1,4 +1,6 @@
-// Primitive Data Types are not objects
+// Primitive Data Types are:
+//    a)  are single valued types
+//    b) immutable
 
 // 1. Number
 let anInt = 2, aDecimal = 1.5;
@@ -34,5 +36,19 @@ console.log(typeof aSymbol === "symbol");
 console.log(typeof aSymbol === "object");
 
 let aNull = null;
-console.log(typeof aNull === "null");
-console.log(typeof aNull === "object");
+console.log(typeof null === "object");
+console.log(null === "object"); // false why?
+
+// All other data types are objects. Objects can:
+//      a) store multiple values
+//      b) are mutable
+//      c) functions are also objects ... huh?? Later.
+
+/*
+1. Date
+2. Array
+3. Map
+4. Set
+5. JSON
+and more
+*/
