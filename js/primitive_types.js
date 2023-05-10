@@ -2,6 +2,12 @@
 //    a)  are single valued types
 //    b) immutable
 
+// == operator is loose equality comparison
+//    where type coercion is performed
+// ==== operator is strict equality where
+//      type AND value must be the same
+// ALWAYS use ===
+
 // 1. Number
 let anInt = 2, aDecimal = 1.5;
 console.log(typeof anInt === "number");
@@ -35,6 +41,7 @@ let aSymbol = Symbol("Foo");
 console.log(typeof aSymbol === "symbol");
 console.log(typeof aSymbol === "object");
 
+// 7. null
 let aNull = null;
 console.log(typeof null === "object");
 console.log(null === "object"); // false why?
